@@ -1,4 +1,4 @@
-import LoginEsqueciForm from '@/components/login/login-esqueci-form';
+import LoginPerdeuForm from '@/components/login/login-perdeu-form';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   description: 'Recupere a sua senha',
 };
 
-export default async function EsqueciPage() {
+export default async function PerdeuPage() {
   return (
     <div className="animeLeft">
       <h1 className="title">Perdeu a senha?</h1>
-      <LoginEsqueciForm />
+      <LoginPerdeuForm />
     </div>
   );
 }
