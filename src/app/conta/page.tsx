@@ -25,7 +25,7 @@ export default async function ContaPage() {
           <Link
             href={'/conta/postar'}
             className="button"
-            style={{ display: 'inline-block', marginBottom: '2rem'}}
+            style={{ display: 'inline-block' }}
           >
             Postar Foto
           </Link>
